@@ -1,0 +1,50 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: url(images/background.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.all{
+    perspective: 100px;
+    background-image: url(images/wheel.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow {
+    height: 300px;
+    margin: -150px 0 0 -25px;
+    /*padding-left: 290px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all .25s ease;
+
+}
+
+.wheel{
+
+}
+
+
+/*.bg{*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+    /*z-index: -1;*/
+/*}*/
+
+/*.wheel {*/
+    /*margin-top: -430px;*/
+    /*margin-left: 30px;*/
+/*}*/
