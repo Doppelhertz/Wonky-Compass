@@ -13,7 +13,7 @@ body{
 }
 
 .all{
-    perspective: 100px;
+    perspective: 50px;
     background-image: url(images/wheel.png);
     width: 100%;
     height: 100%;
